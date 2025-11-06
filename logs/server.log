@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 290 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.253:3000/
+1:17:17 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:91:128: ERROR: Unexpected closing "ndiv" tag does not match opening "div" tag
+1:17:17 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:91:128: ERROR: Unexpected closing "ndiv" tag does not match opening "div" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:91:128
+  
+  Unexpected closing "ndiv" tag does not match opening "div" tag
+  89 |        <h1 className="text-2xl font-bold text-[#0b3d91] mb-4">Profil Dosen</h1>
+  90 |        <div className="bg-white border rounded-xl p-6 flex flex-col sm:flex-row gap-6">
+  91 |          <div className="w-24 h-24 rounded-full bg-[#0b3d91] text-white flex items-center justify-center text-2xl font-bold">TI</ndiv>
+     |                                                                                                                                  ^
+  92 |          <div>
+  93 |            <p className="font-semibold text-slate-900">Dr. Andini Pratama, S.Kom., M.T.</p>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+1:17:40 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:91:128: ERROR: Unexpected closing "ndiv" tag does not match opening "div" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:91:128
+  
+  Unexpected closing "ndiv" tag does not match opening "div" tag
+  89 |        <h1 className="text-2xl font-bold text-[#0b3d91] mb-4">Profil Dosen</h1>
+  90 |        <div className="bg-white border rounded-xl p-6 flex flex-col sm:flex-row gap-6">
+  91 |          <div className="w-24 h-24 rounded-full bg-[#0b3d91] text-white flex items-center justify-center text-2xl font-bold">TI</ndiv>
+     |                                                                                                                                  ^
+  92 |          <div>
+  93 |            <p className="font-semibold text-slate-900">Dr. Andini Pratama, S.Kom., M.T.</p>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
